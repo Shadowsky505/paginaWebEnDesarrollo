@@ -29,3 +29,29 @@
 .fuente-Open {
     font-family: 'Open Sans', sans-serif;
 }
+
+.color1{
+    color: #2C3532;
+}
+
+.color2{
+    color: #0F6466;
+}
+
+.color3{
+    color: #D8B08C;
+}
+
+.color4{
+    color: #FFCB9A;
+}
+
+.color5{
+    color: #D2E8E3;
+}
+
+.logo {
+    width: 180px;
+    margin-top: 20px;
+}
+
