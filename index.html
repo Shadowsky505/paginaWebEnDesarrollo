@@ -15,47 +15,56 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Archivo:wght@200&family=Bebas+Neue&family=Open+Sans&display=swap"
         rel="stylesheet">
+
+    <style>
+        .contenedor{
+            margin-bottom: 20px;
+            background: #0d6efd;
+            color: white;
+            min-height: 100px;
+        }
+
+        .contenedor > div{
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border: 1px solid #0d6efd;
+        }
+    </style>
 </head>
 
 <body>
 
-    <header class="container-fluid m-0 py-1 px-3 color-1 d-flex justify-content-between">
-        <div>
-            <img src="img/1x/Recurso 2logo_blanci.png" alt="" class="logo">
-        </div>
-        <div>
-            <span class="align-middle text-white fs-1 fuente-Open fw-bold">
-                < / >
-            </span>
-        </div>
-        <div>
-            <div class="container-fluid py-2 d-flex">
-                <div class="px-3 text-center">
-                    <p class="p-0 m-0 fuente-Archivo fw-bold fs-6 text-warning">CONTÁCTAME: </p>
-                    <p class="p-0 m-0 fuente-Archivo fs-6 text-white"> +51 937 236 026</p>
+    <header class="container-fluid color-1 py-2">   
+        <div class="col">
+            <div class="d-flex text-white justify-content-between align-items-center">
+                <div>
+                    <img src="img/1x/Recurso 2logo_blanci.png" alt="" class="logo mt-0">
                 </div>
-                <div class="px-3 text-center">
-                    <p class="p-0 m-0 fuente-Archivo fw-bold fs-6 text-warning">MIS REDES</p>
-                    <div>
-                        <a href=""><i class="bi bi-discord color5 px-1"></i></a>
-                        <a href=""><i class="bi bi-whatsapp color5 px-1"></i></a>
-                        <a href=""><i class="bi bi-github color5 px-1"></i></a>
+                <div>
+                    <span class="fs-1 fw-bold fuente-Open color5">< / ></span>
+                </div>
+                <div class="d-flex align-items-center text-center text-warning">
+                    <div class="mx-2">
+                        <p class="mb-0 fw-bold">CONTÁCTAME</p>
+                        <p class="mb-0 color5">+51 937 236 026</p>
+                    </div>
+                    <div class="flex-column mx-2">
+                        <p class="mb-0 fw-bold">MIS REDES</p>
+                        <div class="d-flex justify-content-between">
+                            <a href=""><i class="bi bi-discord color5 px-1"></i></a>
+                            <a href=""><i class="bi bi-whatsapp color5 px-1"></i></a>
+                            <a href=""><i class="bi bi-github color5 px-1"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
     <div class="py-2 color-3 bg-gradient"></div>
+
     <nav class="navbar navbar-expand color-1">
     </nav>
-
-    <div class="d-flex p-4 mb-3 bg-warning justify-content-between">
-        <div class="p-2 border bg-danger fw-bold text-white align-self-baseline">Flex item 1</div>
-        <div class="p-2 border bg-success fw-bold text-white">Flex item 2</div>
-        <div class="p-2 border bg-primary fw-bold text-white">Flex item 3</div>
-        <div class="p-2 border bg-danger fw-bold text-white">Flex item 4</div>
-        <div class="p-2 border bg-success fw-bold text-white">Flex item 5</div>
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
         integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
